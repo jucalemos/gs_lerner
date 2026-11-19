@@ -1,0 +1,82 @@
+{
+  "contexto": "Estudo de caso acadêmico de iluminação pública em São Paulo. Os cálculos representam um ponto de luz e podem ser multiplicados pela quantidade de pontos, desde que as premissas sejam mantidas.",
+  "data_referencia": "2026-11-19",
+  "premissas": {
+    "horas_por_dia": 12,
+    "dias_por_ano": 365,
+    "tarifa_b4a_reais_por_kwh": 0.43416,
+    "tarifa_composicao": "B4a: TUSD de R$ 259,83/MWh + TE de R$ 174,33/MWh = R$ 434,16/MWh, equivalente a R$ 0,43416/kWh",
+    "observacao_tarifa": "Valor de referência publicado pela Enel para B4a, vigente a partir de 04/07/2026. O enquadramento B4a é indicado para iluminação pública em nota técnica da Controladoria Geral do Município de São Paulo."
+  },
+  "alternativas": [
+    {
+      "id": "sodio",
+      "nome": "Luminária convencional a vapor de sódio",
+      "potencia_w": 310,
+      "fonte_energia": "Rede elétrica",
+      "fluxo_luminoso_lm": 19900,
+      "tipo_dado": "Exemplo técnico de medição laboratorial publicado no Guia de Iluminação Pública do Inmetro/PUCRS (2021). Inclui lâmpada e reator."
+    },
+    {
+      "id": "led_rede",
+      "nome": "Luminária LED conectada à rede",
+      "potencia_w": 120,
+      "fonte_energia": "Rede elétrica",
+      "fluxo_luminoso_lm": 18500,
+      "tipo_dado": "Exemplo técnico de medição laboratorial publicado no Guia de Iluminação Pública do Inmetro/PUCRS (2021). Inclui driver e módulo LED."
+    },
+    {
+      "id": "led_solar",
+      "nome": "Luminária LED com alimentação solar fotovoltaica",
+      "potencia_w": 120,
+      "fonte_energia": "Painel fotovoltaico e bateria, sistema autônomo",
+      "fluxo_luminoso_lm": 18500,
+      "tipo_dado": "Cenário estimado: utiliza a mesma carga LED de 120 W do exemplo técnico, mas considera que toda a energia é fornecida por um sistema fotovoltaico autônomo. Não representa equipamento instalado ou orçamento de fornecedor."
+    }
+  ],
+  "historico_publico": [
+    {
+      "data": "2021-07",
+      "descricao": "SP Regula informou que 541 mil pontos haviam sido remodelados ou ampliados com LED, equivalentes a 88,5% do parque, com economia de 52% no consumo energético da cidade."
+    },
+    {
+      "data": "2022-05",
+      "descricao": "O Tribunal de Contas do Município registrou a substituição de 613 mil luminárias e informou que mais de 99% da rede estava modernizada."
+    }
+  ],
+  "fontes": [
+    {
+      "nome": "SP Regula — História da Iluminação Pública",
+      "url": "https://prefeitura.sp.gov.br/web/spregula/w/iluminacao_publica/historia/312",
+      "uso": "Histórico da modernização por LED e economia energética informada pela Prefeitura."
+    },
+    {
+      "nome": "Tribunal de Contas do Município de São Paulo — Iluminação Pública e Crimes",
+      "url": "https://observatorio.tcm.sp.gov.br/Urbanismo/216553/167271",
+      "uso": "Registro de 613 mil luminárias substituídas até maio de 2022 e modernização superior a 99%."
+    },
+    {
+      "nome": "Inmetro / PUCRS — Guia para Iluminação Pública, volume 1 (setembro de 2021)",
+      "url": "https://www.gov.br/inmetro/pt-br/centrais-de-conteudo/publicacoes/cartilhas/guia-ip-vol1.pdf",
+      "uso": "Exemplo laboratorial comparando luminária a vapor de sódio de 310 W totais e LED de 120 W, com fluxos luminosos próximos."
+    },
+    {
+      "nome": "Enel São Paulo — Tarifa de Energia Elétrica",
+      "url": "https://www.enel.com.br/pt-saopaulo/Para_Voce/tarifa-energia-eletrica.html",
+      "uso": "Componentes TUSD e TE da tarifa B4a publicados para vigência a partir de 04/07/2026."
+    },
+    {
+      "nome": "Controladoria Geral do Município de São Paulo — Nota Técnica 009/2021",
+      "url": "https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/controladoria_geral/NotaT%C3%A9cnica_009_2021_vfinal.pdf",
+      "uso": "Identifica a tarifa B4a como aplicável ao fornecimento de energia elétrica para iluminação pública."
+    }
+  ],
+  "limitacoes": [
+    "A potência e o fluxo luminoso são exemplos técnicos de laboratório, não um inventário das luminárias atualmente instaladas em São Paulo.",
+    "O uso de 12 horas por noite é uma premissa simplificadora; o tempo real varia com estação do ano, acionamento e controle.",
+    "A tarifa é uma referência B4a publicada pela Enel; a cobrança efetiva pode depender do enquadramento, medição, contrato e regras vigentes.",
+    "O cenário solar considera, para fins comparativos, atendimento integral da carga pelo sistema fotovoltaico. Não dimensiona painel, bateria ou autonomia.",
+    "Não foi incluído preço de compra e instalação de painel, bateria, poste, inversor ou manutenção. Portanto, não é possível calcular payback ou afirmar qual alternativa tem menor custo total.",
+    "Não foram quantificadas emissões de gases de efeito estufa nem impactos de fabricação e descarte de baterias."
+  ]
+}
