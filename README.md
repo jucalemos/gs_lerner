@@ -7,8 +7,8 @@ O LERNER reúne orientações públicas de São Paulo em um assistente de termin
 > O LERNER é um projeto acadêmico independente. Não é um canal oficial da Prefeitura de São Paulo e não substitui os canais públicos de atendimento.
 
 ## Integrantes
-- Júlia Lemos Souza — [preencher RM]
-- Erick Yu Xiang Li — [preencher RM]
+- Júlia Lemos Souza — 569089
+- Erick Yu Xiang Li — 569305
 
 ## Público e problema
 O público são moradores e pessoas que circulam pela cidade de São Paulo. Informações sobre transporte, serviços urbanos e descarte correto ficam distribuídas em diferentes páginas. O assistente organiza orientações iniciais e apresenta a fonte de cada informação.
