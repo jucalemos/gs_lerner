@@ -1,5 +1,6 @@
 from base_conhecimento import BaseConhecimento
 from assistente import Assistente
+from energia import AnaliseEnergia
 
 
 def main():
@@ -23,6 +24,7 @@ def main():
         print("1 - Digitar uma dúvida")
         print("2 - Navegar por categorias")
         print("3 - Ver indicadores")
+        print("4 - Análise de energia da iluminação pública")
         print("0 - Sair")
 
         opcao = input("Escolha: ").strip()
@@ -33,10 +35,13 @@ def main():
             assistente.navegar()
         elif opcao == "3":
             assistente.mostrar_indicadores()
+        elif opcao == "4":
+            energia = AnaliseEnergia()
+            energia.mostrar_analise()
         elif opcao == "0":
             break
         else:
-            print("Opção inválida. Escolha 1, 2, 3 ou 0.")
+            print("Opção inválida. Escolha 1, 2, 3, 4 ou 0.")
 
     assistente.avaliar_facilidade()
     assistente.exportar_csv()
