@@ -55,6 +55,7 @@ gs_lerner/
 │   └── atendimentos.csv
 ├── docs/
 │   ├── sustentabilidade.md
+│   ├── apresentacao.html
 │   ├── slides_pitch.md
 │   ├── roteiro_pitch.md
 │   ├── roteiro_video_tecnico.md
@@ -121,7 +122,7 @@ Não registrar nomes, CPFs, telefones, e-mails ou outras informações pessoais 
 ## Vídeo técnico
 Link do vídeo não listado: [inserir link após gravar]
 
-O roteiro obrigatório está em `docs/roteiro_video_tecnico.md`. O vídeo deve ter entre 5 e 8 minutos, mostrar o código e o programa funcionando, e contar com a participação de todos os integrantes. A narração deve ser feita pela própria equipe.
+A apresentação em HTML está em `docs/apresentacao.html` (abra no navegador e use as setas do teclado). O roteiro falado do pitch está em `docs/roteiro_pitch.md`, com a estrutura dos slides em `docs/slides_pitch.md`. O roteiro obrigatório do vídeo técnico está em `docs/roteiro_video_tecnico.md`. O vídeo deve ter entre 5 e 8 minutos, mostrar o código e o programa funcionando, e contar com a participação de todos os integrantes. A narração deve ser feita pela própria equipe.
 
 ## Testes locais
 ```bash
