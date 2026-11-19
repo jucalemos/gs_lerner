@@ -55,7 +55,8 @@ gs_lerner/
 │   ├── avaliacoes.json
 │   ├── atendimentos.csv
 │   ├── historico_teste_simulado.json
-│   └── avaliacoes_teste_simuladas.json
+│   ├── avaliacoes_teste_simuladas.json
+│   └── testes_usuarios_reais.md
 └── tests/
     ├── __init__.py
     └── teste_basico.py
@@ -127,9 +128,7 @@ A potência e o fluxo luminoso são exemplos técnicos de laboratório, não um 
 ## Testes simulados e testes reais
 Os arquivos `data/historico_teste_simulado.json` e `data/avaliacoes_teste_simuladas.json` contêm exemplos fictícios, autorizados pela equipe, para demonstrar o formato dos registros e exercitar a leitura de resultados. Eles ficam separados do histórico real e estão identificados como simulação. Não são entrevistas ou testes realizados com pessoas reais e não cumprem, por si só, a validação solicitada pelo professor.
 
-O enunciado pede testes com usuários, com registro das situações testadas, comentários e ajustes realizados. Essa etapa ainda precisa ser feita com pessoas reais. Não registrar nomes nem dados pessoais desnecessários.
-
-Os resultados dos quatro testes reais já realizados estão documentados em `data/testes_usuarios_reais.md`. Até o momento, são quatro atendimentos; faltam seis para atingir o mínimo de dez. Atualizar esse documento conforme novos testes forem realizados.
+Os resultados dos testes estão documentados em `data/testes_usuarios_reais.md`. Até 19/11/2026, foram documentados 10 atendimentos no total: quatro realizados por participantes externos e seis realizados pela equipe. Os quatro participantes externos superam o mínimo de três pessoas de fora da equipe. Os atendimentos internos são apresentados separadamente e não são contabilizados como participantes externos.
 
 ## Indicadores
 O programa calcula o percentual de perguntas com orientação encontrada, o percentual de atendimentos em que a orientação ajudou, o tempo médio, a média de tentativas, a média das avaliações de facilidade e as dúvidas sem solução.
