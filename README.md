@@ -129,6 +129,8 @@ Os arquivos `data/historico_teste_simulado.json` e `data/avaliacoes_teste_simula
 
 O enunciado pede testes com usuários, com registro das situações testadas, comentários e ajustes realizados. Essa etapa ainda precisa ser feita com pessoas reais. Não registrar nomes nem dados pessoais desnecessários.
 
+Os resultados dos quatro testes reais já realizados estão documentados em `data/testes_usuarios_reais.md`. Até o momento, são quatro atendimentos; faltam seis para atingir o mínimo de dez. Atualizar esse documento conforme novos testes forem realizados.
+
 ## Indicadores
 O programa calcula o percentual de perguntas com orientação encontrada, o percentual de atendimentos em que a orientação ajudou, o tempo médio, a média de tentativas, a média das avaliações de facilidade e as dúvidas sem solução.
 
