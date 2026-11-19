@@ -130,6 +130,8 @@ Os arquivos `data/historico_teste_simulado.json` e `data/avaliacoes_teste_simula
 
 Os resultados dos testes estão documentados em `data/testes_usuarios_reais.md`. Até 19/11/2026, foram documentados 10 atendimentos no total: quatro realizados por participantes externos e seis realizados pela equipe. Os quatro participantes externos superam o mínimo de três pessoas de fora da equipe. Os atendimentos internos são apresentados separadamente e não são contabilizados como participantes externos.
 
+Os quatro testes externos também foram transcritos para `data/historico.json` e `data/atendimentos.csv`, e as quatro notas de facilidade (4, 3, 4 e 5) estão em `data/avaliacoes.json`. O tempo de uso e o número de tentativas não foram coletados nos formulários; por isso, esses campos ficam sem valor, em vez de receber números inventados. O programa ignora esses campos ao calcular as médias e informa quando não há dados.
+
 ## Indicadores
 O programa calcula o percentual de perguntas com orientação encontrada, o percentual de atendimentos em que a orientação ajudou, o tempo médio, a média de tentativas, a média das avaliações de facilidade e as dúvidas sem solução.
 
