@@ -57,6 +57,7 @@ gs_lerner/
 │   ├── historico_teste_simulado.json
 │   └── avaliacoes_teste_simuladas.json
 └── tests/
+    ├── __init__.py
     └── teste_basico.py
 ```
 
