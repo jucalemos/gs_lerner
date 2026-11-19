@@ -150,9 +150,10 @@ class Assistente:
 
             if len(resultados) > 1:
                 print("\nOutras orientações que podem ajudar:")
-                limite = min(3, len(resultados))
+                for indice in range(1, len(resultados)):
+                    if indice > 2:
+                        break
 
-                for indice in range(1, limite):
                     pontos_alternativa, alternativa = resultados[indice]
                     if pontos_alternativa >= 3:
                         print("- " + alternativa.titulo)
@@ -205,8 +206,10 @@ class Assistente:
             while True:
                 print("\n" + categoria_escolhida)
 
-                for indice, orientacao in enumerate(orientacoes, start=1):
+                indice = 1
+                for orientacao in orientacoes:
                     print(str(indice) + " - " + orientacao.titulo)
+                    indice = indice + 1
 
                 print("0 - Voltar às categorias")
 
@@ -293,8 +296,13 @@ class Assistente:
                 sem_solucao.append(atendimento["pergunta"])
 
         if len(self.avaliacoes) > 0:
+            soma_avaliacoes = 0
+
+            for nota in self.avaliacoes:
+                soma_avaliacoes = soma_avaliacoes + nota
+
             facilidade_media = round(
-                sum(self.avaliacoes) / len(self.avaliacoes), 1
+                soma_avaliacoes / len(self.avaliacoes), 1
             )
         else:
             facilidade_media = 0
