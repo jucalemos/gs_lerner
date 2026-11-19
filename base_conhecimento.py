@@ -84,7 +84,11 @@ class BaseConhecimento:
                 pontos = pontos + 3
 
         palavras = pergunta_normalizada.strip().split()
-        palavras_unicas = set(palavras)
+        palavras_unicas = []
+
+        for palavra in palavras:
+            if palavra not in palavras_unicas:
+                palavras_unicas.append(palavra)
 
         for palavra in palavras_unicas:
             if len(palavra) >= 4:
@@ -100,5 +104,11 @@ class BaseConhecimento:
             pontos = self.pontuar(pergunta, orientacao)
             resultados.append((pontos, orientacao))
 
-        resultados.sort(key=lambda item: item[0], reverse=True)
+        for i in range(len(resultados)):
+            for j in range(i + 1, len(resultados)):
+                if resultados[j][0] > resultados[i][0]:
+                    auxiliar = resultados[i]
+                    resultados[i] = resultados[j]
+                    resultados[j] = auxiliar
+
         return resultados
