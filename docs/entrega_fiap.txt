@@ -1,0 +1,5 @@
+Nome do assistente: LERNER — Assistente do Cidadão
+Público atendido: moradores e pessoas que circulam pela cidade de São Paulo
+Integrantes e RM: [preencher nomes e RMs]
+Link do repositório GitHub: https://github.com/jucalemos/gs_lerner
+Link do vídeo técnico no YouTube: [inserir link do vídeo não listado]
