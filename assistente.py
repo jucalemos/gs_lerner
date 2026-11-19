@@ -180,8 +180,10 @@ class Assistente:
         while True:
             print("\nCategorias disponíveis:")
 
-            for indice, categoria in enumerate(categorias, start=1):
+            indice = 1
+            for categoria in categorias:
                 print(str(indice) + " - " + categoria)
+                indice = indice + 1
 
             print("0 - Voltar")
 
