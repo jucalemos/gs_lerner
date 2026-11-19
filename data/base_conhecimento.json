@@ -3,7 +3,12 @@
         "id": 1,
         "categoria": "Mobilidade",
         "titulo": "Solicitar Bilhete Único Especial da Pessoa com Deficiência",
-        "palavras_chave": ["bilhete unico especial", "pessoa com deficiencia", "cartao pcd", "transporte pcd"],
+        "palavras_chave": [
+            "bilhete unico especial",
+            "pessoa com deficiencia",
+            "cartao pcd",
+            "transporte pcd"
+        ],
         "resposta": "A Prefeitura de São Paulo reúne os serviços do Bilhete Único Especial da Pessoa com Deficiência, incluindo solicitação de primeira via, segunda via, renovação e revisão. Consulte os requisitos e a documentação atualizados antes de iniciar o pedido.",
         "documentos": [],
         "onde": "Portal de serviços da Prefeitura de São Paulo e canais indicados pela SPTrans.",
@@ -14,7 +19,12 @@
         "id": 2,
         "categoria": "Mobilidade",
         "titulo": "Consultar Bilhete Único da Pessoa Idosa",
-        "palavras_chave": ["bilhete unico idoso", "cartao idoso", "gratuidade idoso", "transporte pessoa idosa"],
+        "palavras_chave": [
+            "bilhete unico idoso",
+            "cartao idoso",
+            "gratuidade idoso",
+            "transporte pessoa idosa"
+        ],
         "resposta": "A Prefeitura disponibiliza orientações e serviços relacionados ao Bilhete Único da Pessoa Idosa, incluindo solicitação e segunda via. As regras podem variar conforme a faixa etária; confira os requisitos atuais na página oficial.",
         "documentos": [],
         "onde": "Página de serviços de mobilidade da Prefeitura de São Paulo.",
@@ -25,7 +35,13 @@
         "id": 3,
         "categoria": "Serviços urbanos",
         "titulo": "Encontrar os canais de atendimento SP156",
-        "palavras_chave": ["sp156", "central 156", "atendimento prefeitura", "solicitar servico", "reclamacao prefeitura"],
+        "palavras_chave": [
+            "sp156",
+            "central 156",
+            "atendimento prefeitura",
+            "solicitar servico",
+            "reclamacao prefeitura"
+        ],
         "resposta": "O SP156 oferece canais para solicitar serviços, obter informações e registrar reclamações ou dúvidas. Entre os canais estão telefone, portal eletrônico, aplicativo, chat e atendimento presencial em unidades indicadas pela Prefeitura.",
         "documentos": [],
         "onde": "Portal SP156, aplicativo SP156, telefone 156 e unidades presenciais indicadas na Carta de Serviços.",
@@ -36,7 +52,13 @@
         "id": 4,
         "categoria": "Serviços urbanos",
         "titulo": "Solicitar manutenção da iluminação pública",
-        "palavras_chave": ["iluminacao publica", "lampada apagada", "poste sem luz", "luz da rua", "ilumina sp"],
+        "palavras_chave": [
+            "iluminacao publica",
+            "lampada apagada",
+            "poste sem luz",
+            "luz da rua",
+            "ilumina sp"
+        ],
         "resposta": "Para solicitar reparo de lâmpada, luminária ou poste metálico, a Prefeitura informa o telefone gratuito 0800 779 0156, com atendimento 24 horas, e o aplicativo Ilumina SP. Guarde o protocolo quando a solicitação gerar um número de acompanhamento.",
         "documentos": [],
         "onde": "Telefone 0800 779 0156 ou aplicativo Ilumina SP.",
@@ -47,7 +69,13 @@
         "id": 5,
         "categoria": "Serviços urbanos",
         "titulo": "Solicitar avaliação de poda ou remoção de árvore em calçada ou praça",
-        "palavras_chave": ["poda de arvore", "arvore na calcada", "remocao de arvore", "arvore perigosa", "avaliacao de arvore"],
+        "palavras_chave": [
+            "poda de arvore",
+            "arvore na calcada",
+            "remocao de arvore",
+            "arvore perigosa",
+            "avaliacao de arvore"
+        ],
         "resposta": "A Prefeitura permite solicitar avaliação técnica para poda ou remoção de árvores localizadas em calçadas e praças. A solicitação pode ser feita pelo Portal SP156. Não realize poda ou remoção por conta própria em área pública.",
         "documentos": [],
         "onde": "Portal SP156, serviço de avaliação de poda ou remoção de árvores.",
@@ -58,7 +86,13 @@
         "id": 6,
         "categoria": "Sustentabilidade",
         "titulo": "Descartar pequenos volumes em Ecopontos",
-        "palavras_chave": ["ecoponto", "descarte entulho", "moveis velhos", "reciclaveis", "descarte correto"],
+        "palavras_chave": [
+            "ecoponto",
+            "descarte entulho",
+            "moveis velhos",
+            "reciclaveis",
+            "descarte correto"
+        ],
         "resposta": "Os Ecopontos são espaços gratuitos para entrega voluntária de pequenos volumes, como entulho de pequenas reformas, móveis velhos e materiais recicláveis. Consulte a unidade mais próxima e confirme os materiais aceitos antes de ir.",
         "documentos": [],
         "onde": "Consulte endereços e materiais aceitos no portal Coleta e Descartes da Prefeitura.",
@@ -69,7 +103,13 @@
         "id": 7,
         "categoria": "Sustentabilidade",
         "titulo": "Consultar a Operação Cata-Bagulho",
-        "palavras_chave": ["cata bagulho", "coleta de moveis", "sofa velho", "colchao velho", "objeto volumoso"],
+        "palavras_chave": [
+            "cata bagulho",
+            "coleta de moveis",
+            "sofa velho",
+            "colchao velho",
+            "objeto volumoso"
+        ],
         "resposta": "A Operação Cata-Bagulho recolhe objetos volumosos e inservíveis em datas organizadas por região. A programação deve ser consultada para o bairro ou subprefeitura. Confira os materiais aceitos e coloque os itens para coleta somente conforme as orientações oficiais.",
         "documentos": [],
         "onde": "Consulte a programação da sua região no portal da Prefeitura ou pelo SP156.",
@@ -80,7 +120,13 @@
         "id": 8,
         "categoria": "Sustentabilidade",
         "titulo": "Consultar dias e horários da coleta seletiva",
-        "palavras_chave": ["coleta seletiva", "dia da reciclagem", "horario coleta", "caminhao reciclavel", "cep coleta"],
+        "palavras_chave": [
+            "coleta seletiva",
+            "dia da reciclagem",
+            "horario coleta",
+            "caminhao reciclavel",
+            "cep coleta"
+        ],
         "resposta": "A Prefeitura disponibiliza uma consulta por CEP para verificar os dias e horários em que os caminhões de lixo comum e recicláveis passam na região. Use o portal oficial para consultar a programação do seu endereço.",
         "documentos": [],
         "onde": "Portal Coleta e Descartes da Prefeitura de São Paulo.",
@@ -91,7 +137,13 @@
         "id": 9,
         "categoria": "Sustentabilidade",
         "titulo": "Separar materiais para a coleta seletiva",
-        "palavras_chave": ["separar lixo", "material reciclavel", "garrafa pet", "papel limpo", "lata aluminio"],
+        "palavras_chave": [
+            "separar lixo",
+            "material reciclavel",
+            "garrafa pet",
+            "papel limpo",
+            "lata aluminio"
+        ],
         "resposta": "O portal municipal lista como recicláveis itens como garrafas PET e outros plásticos, embalagens longa vida, latas de aço e alumínio, isopor e papel limpo. Materiais sujos, engordurados ou com restos de alimentos devem ser conferidos na categoria de lixo comum do portal.",
         "documentos": [],
         "onde": "Consulte a lista completa e as orientações no portal Coleta e Descartes.",
@@ -102,7 +154,13 @@
         "id": 10,
         "categoria": "Sustentabilidade",
         "titulo": "Conhecer os pátios de compostagem de São Paulo",
-        "palavras_chave": ["compostagem", "residuo organico", "restos de feira", "adubo gratuito", "patio de compostagem"],
+        "palavras_chave": [
+            "compostagem",
+            "residuo organico",
+            "restos de feira",
+            "adubo gratuito",
+            "patio de compostagem"
+        ],
         "resposta": "A Prefeitura mantém pátios que recebem resíduos orgânicos de feiras livres e os transformam em composto. A página oficial apresenta os endereços e horários. Para visitas ou retirada de composto em grande quantidade, informa um contato por e-mail.",
         "documentos": [],
         "onde": "Pátios de compostagem municipais. Consulte os endereços e contatos na página oficial.",
@@ -113,11 +171,35 @@
         "id": 11,
         "categoria": "Sustentabilidade",
         "titulo": "Encontrar pontos de entrega voluntária de vidro",
-        "palavras_chave": ["descarte de vidro", "reciclar vidro", "garrafa de vidro", "ponto de entrega vidro", "conteiner amarelo"],
+        "palavras_chave": [
+            "descarte de vidro",
+            "reciclar vidro",
+            "garrafa de vidro",
+            "ponto de entrega vidro",
+            "conteiner amarelo"
+        ],
         "resposta": "O portal municipal de coleta e descarte reúne informações sobre contêineres para entrega voluntária de vidro por região da cidade. Consulte o mapa ou a lista atualizada antes de se deslocar.",
         "documentos": [],
         "onde": "Portal Coleta e Descartes da Prefeitura de São Paulo.",
         "fonte": "https://coleta.prefeitura.sp.gov.br/",
         "verificado_em": "2026-11-18"
+    },
+    {
+        "id": 12,
+        "categoria": "Sustentabilidade",
+        "titulo": "Entender o consumo e as alternativas de energia na iluminação pública",
+        "palavras_chave": [
+            "iluminacao publica",
+            "economizar energia",
+            "energia solar",
+            "luminaria led",
+            "consumo de energia",
+            "custo da iluminacao"
+        ],
+        "resposta": "O estudo do LERNER compara três cenários por ponto de luz: vapor de sódio de 310 W, LED ligado à rede de 120 W e LED alimentado por sistema solar. Com funcionamento estimado de 12 horas por dia e tarifa B4a de referência de R$ 0,43416/kWh, o exemplo calcula aproximadamente 1.357,80 kWh/ano e R$ 589,50/ano para o vapor de sódio; 525,60 kWh/ano e R$ 228,19/ano para o LED ligado à rede. A troca do exemplo de sódio por LED representa redução estimada de 61,29% no consumo, ou 832,20 kWh e R$ 361,31 por ponto ao ano. No cenário solar idealizado, a mesma carga LED demanda 525,60 kWh/ano, mas essa energia seria fornecida pelo painel e bateria, não comprada da rede. O custo de instalação, baterias e manutenção do sistema solar não foi incluído, então não é possível afirmar o retorno financeiro. A cidade de São Paulo informou que, até julho de 2021, 541 mil pontos tinham sido remodelados ou ampliados com LED e que a iniciativa gerou economia de 52% no consumo energético municipal. Esse dado histórico da cidade não deve ser confundido com a estimativa por luminária deste estudo.",
+        "documentos": [],
+        "onde": "Menu principal do LERNER, opção 4 - Análise de energia da iluminação pública.",
+        "fonte": "SP Regula: https://prefeitura.sp.gov.br/web/spregula/w/iluminacao_publica/historia/312 | Inmetro/PUCRS: https://www.gov.br/inmetro/pt-br/centrais-de-conteudo/publicacoes/cartilhas/guia-ip-vol1.pdf | Enel: https://www.enel.com.br/pt-saopaulo/Para_Voce/tarifa-energia-eletrica.html | Nota Técnica CGM 009/2021: https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/controladoria_geral/NotaT%C3%A9cnica_009_2021_vfinal.pdf",
+        "verificado_em": "2026-11-19"
     }
 ]
