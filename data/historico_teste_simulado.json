@@ -1,0 +1,107 @@
+{
+    "aviso": "DADOS FICTÍCIOS PARA TESTE INTERNO DO PROGRAMA. NÃO SÃO PESQUISA COM USUÁRIOS REAIS E NÃO DEVEM SER APRESENTADOS COMO VALIDAÇÃO REAL.",
+    "simulado": true,
+    "data_geracao": "2026-11-19",
+    "atendimentos": [
+        {
+            "id_teste": 1,
+            "pergunta": "Como economizar energia na iluminação da rua?",
+            "id_orientacao": 12,
+            "encontrou": true,
+            "ajudou": true,
+            "tentativas": 1,
+            "tempo_segundos_simulado": 9,
+            "origem": "simulação"
+        },
+        {
+            "id_teste": 2,
+            "pergunta": "Qual a diferença entre LED e vapor de sódio?",
+            "id_orientacao": 12,
+            "encontrou": true,
+            "ajudou": true,
+            "tentativas": 1,
+            "tempo_segundos_simulado": 12,
+            "origem": "simulação"
+        },
+        {
+            "id_teste": 3,
+            "pergunta": "Quanto gasta uma luminária LED por ano?",
+            "id_orientacao": 12,
+            "encontrou": true,
+            "ajudou": true,
+            "tentativas": 1,
+            "tempo_segundos_simulado": 10,
+            "origem": "simulação"
+        },
+        {
+            "id_teste": 4,
+            "pergunta": "Existe iluminação pública com energia solar?",
+            "id_orientacao": 12,
+            "encontrou": true,
+            "ajudou": true,
+            "tentativas": 1,
+            "tempo_segundos_simulado": 14,
+            "origem": "simulação"
+        },
+        {
+            "id_teste": 5,
+            "pergunta": "Quanto custa a energia da iluminação pública?",
+            "id_orientacao": 12,
+            "encontrou": true,
+            "ajudou": true,
+            "tentativas": 1,
+            "tempo_segundos_simulado": 11,
+            "origem": "simulação"
+        },
+        {
+            "id_teste": 6,
+            "pergunta": "Quantas horas por dia a luminária fica ligada?",
+            "id_orientacao": 12,
+            "encontrou": true,
+            "ajudou": false,
+            "tentativas": 1,
+            "tempo_segundos_simulado": 16,
+            "origem": "simulação"
+        },
+        {
+            "id_teste": 7,
+            "pergunta": "Qual foi a economia de São Paulo com LED?",
+            "id_orientacao": 12,
+            "encontrou": true,
+            "ajudou": true,
+            "tentativas": 1,
+            "tempo_segundos_simulado": 13,
+            "origem": "simulação"
+        },
+        {
+            "id_teste": 8,
+            "pergunta": "Como pedir conserto de poste apagado?",
+            "id_orientacao": 4,
+            "encontrou": true,
+            "ajudou": true,
+            "tentativas": 1,
+            "tempo_segundos_simulado": 8,
+            "origem": "simulação"
+        },
+        {
+            "id_teste": 9,
+            "pergunta": "Qual o preço de instalação de poste solar?",
+            "id_orientacao": null,
+            "encontrou": false,
+            "ajudou": false,
+            "tentativas": 2,
+            "tempo_segundos_simulado": 19,
+            "origem": "simulação"
+        },
+        {
+            "id_teste": 10,
+            "pergunta": "A energia solar elimina manutenção?",
+            "id_orientacao": 12,
+            "encontrou": true,
+            "ajudou": false,
+            "tentativas": 1,
+            "tempo_segundos_simulado": 17,
+            "origem": "simulação"
+        }
+    ]
+}
