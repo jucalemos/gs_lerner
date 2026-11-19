@@ -69,6 +69,11 @@
       "nome": "Controladoria Geral do Município de São Paulo — Nota Técnica 009/2021",
       "url": "https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/controladoria_geral/NotaT%C3%A9cnica_009_2021_vfinal.pdf",
       "uso": "Identifica a tarifa B4a como aplicável ao fornecimento de energia elétrica para iluminação pública."
+    },
+    {
+      "nome": "Prefeitura de Ferraz de Vasconcelos — Termo de Referência de iluminação pública solar",
+      "url": "https://ferrazdevasconcelos.sp.gov.br/web/wp-content/uploads/2025/07/TR-CE13-EDITAL-41.pdf",
+      "uso": "Referência pública de contratação que descreve sistemas solares autônomos para locais sem rede e observa que a luminária solar tem custo inicial maior; usada apenas como referência qualitativa, não como preço para São Paulo."
     }
   ],
   "limitacoes": [
@@ -78,5 +83,10 @@
     "O cenário solar considera, para fins comparativos, atendimento integral da carga pelo sistema fotovoltaico. Não dimensiona painel, bateria ou autonomia.",
     "Não foi incluído preço de compra e instalação de painel, bateria, poste, inversor ou manutenção. Portanto, não é possível calcular payback ou afirmar qual alternativa tem menor custo total.",
     "Não foram quantificadas emissões de gases de efeito estufa nem impactos de fabricação e descarte de baterias."
+  ],
+  "avaliacao_qualitativa": [
+    "LED conectado à rede: faz sentido onde já existe infraestrutura elétrica. O exemplo técnico indica consumo menor que o sistema a vapor de sódio para fluxos luminosos próximos. Em ruas existentes, aproveita a rede já instalada.",
+    "LED solar autônomo: pode ser útil em locais sem rede elétrica ou em ampliações onde levar cabos e infraestrutura seria caro. Exige painel, bateria, controlador, estrutura, proteção contra furto/vandalismo e manutenção. Em ruas já atendidas pela rede, o investimento inicial e a troca de baterias podem reduzir a vantagem econômica.",
+    "Impactos ambientais: o LED reduz a energia consumida no cenário comparado. A opção solar usa fonte renovável durante a operação, mas painel e bateria também exigem materiais, fabricação, manutenção e destinação correta ao fim da vida útil. O projeto não quantificou esses impactos."
   ]
 }
