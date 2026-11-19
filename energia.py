@@ -89,6 +89,10 @@ class AnaliseEnergia:
         for registro in self.dados["historico_publico"]:
             print("- " + registro["data"] + ": " + registro["descricao"])
 
+        print("\nAvaliação de viabilidade e impactos:")
+        for criterio in self.dados["avaliacao_qualitativa"]:
+            print("- " + criterio)
+
         print("\nLimitações importantes:")
         for limitacao in self.dados["limitacoes"]:
             print("- " + limitacao)
