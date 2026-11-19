@@ -176,14 +176,14 @@ class Assistente:
             print("Não há categorias cadastradas.")
             return
 
-        print("\nCategorias disponíveis:")
-
-        for indice, categoria in enumerate(categorias, start=1):
-            print(str(indice) + " - " + categoria)
-
-        print("0 - Voltar")
-
         while True:
+            print("\nCategorias disponíveis:")
+
+            for indice, categoria in enumerate(categorias, start=1):
+                print(str(indice) + " - " + categoria)
+
+            print("0 - Voltar")
+
             escolha = input("Escolha uma categoria: ").strip()
 
             if escolha == "0":
@@ -202,18 +202,18 @@ class Assistente:
             categoria_escolhida = categorias[numero - 1]
             orientacoes = self.base.por_categoria(categoria_escolhida)
 
-            print("\n" + categoria_escolhida)
-
-            for indice, orientacao in enumerate(orientacoes, start=1):
-                print(str(indice) + " - " + orientacao.titulo)
-
-            print("0 - Voltar")
-
             while True:
+                print("\n" + categoria_escolhida)
+
+                for indice, orientacao in enumerate(orientacoes, start=1):
+                    print(str(indice) + " - " + orientacao.titulo)
+
+                print("0 - Voltar às categorias")
+
                 escolha_orientacao = input("Escolha uma orientação: ").strip()
 
                 if escolha_orientacao == "0":
-                    return
+                    break
 
                 if not escolha_orientacao.isdigit():
                     print("Digite o número de uma orientação.")
