@@ -282,6 +282,8 @@ class Assistente:
         ajudou = 0
         soma_tempo = 0
         soma_tentativas = 0
+        quantidade_tempos = 0
+        quantidade_tentativas = 0
         sem_solucao = []
 
         for atendimento in self.historico:
@@ -291,8 +293,13 @@ class Assistente:
             if atendimento["ajudou"]:
                 ajudou = ajudou + 1
 
-            soma_tempo = soma_tempo + atendimento["tempo"]
-            soma_tentativas = soma_tentativas + atendimento["tentativas"]
+            if atendimento["tempo"] is not None:
+                soma_tempo = soma_tempo + atendimento["tempo"]
+                quantidade_tempos = quantidade_tempos + 1
+
+            if atendimento["tentativas"] is not None:
+                soma_tentativas = soma_tentativas + atendimento["tentativas"]
+                quantidade_tentativas = quantidade_tentativas + 1
 
             if not atendimento["encontrou"] or not atendimento["ajudou"]:
                 sem_solucao.append(atendimento["pergunta"])
@@ -313,8 +320,8 @@ class Assistente:
             "total": total,
             "encontradas": round(encontradas / total * 100, 1),
             "ajudou": round(ajudou / total * 100, 1),
-            "tempo_medio": round(soma_tempo / total, 1),
-            "tentativas_media": round(soma_tentativas / total, 1),
+            "tempo_medio": round(soma_tempo / quantidade_tempos, 1) if quantidade_tempos > 0 else None,
+            "tentativas_media": round(soma_tentativas / quantidade_tentativas, 1) if quantidade_tentativas > 0 else None,
             "facilidade_media": facilidade_media,
             "sem_solucao": sem_solucao
         }
@@ -331,8 +338,15 @@ class Assistente:
 
         print("Respostas encontradas: " + str(dados["encontradas"]) + "%")
         print("Atendimentos em que ajudou: " + str(dados["ajudou"]) + "%")
-        print("Tempo médio: " + str(dados["tempo_medio"]) + " segundos")
-        print("Tentativas por atendimento: " + str(dados["tentativas_media"]))
+        if dados["tempo_medio"] is None:
+            print("Tempo médio: não registrado nos testes anteriores.")
+        else:
+            print("Tempo médio: " + str(dados["tempo_medio"]) + " segundos")
+
+        if dados["tentativas_media"] is None:
+            print("Tentativas por atendimento: não registradas nos testes anteriores.")
+        else:
+            print("Tentativas por atendimento: " + str(dados["tentativas_media"]))
         print("Facilidade média: " + str(dados["facilidade_media"]) + " de 5")
 
         print("\nDúvidas sem solução:")
